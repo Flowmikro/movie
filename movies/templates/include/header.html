@@ -1,0 +1,21 @@
+{% load movie_tag %}
+    <header class="header">
+        <div class="container-fluid px-lg-5">
+            <nav class="py-4">
+                <div id="logo">
+                    <h1> <a href="{% url 'movie_list' %}" class="editContent" style="outline: none; outline-offset: -2px; cursor: inherit; color: rgb(255, 255, 255); font-size: 40px; background-color: rgba(0, 0, 0, 0); font-family: &quot;Source Sans Pro&quot;, sans-serif;">DjangoMovie</a></h1>
+                </div>
+                <label for="drop" class="toggle">Menu</label>
+                <input type="checkbox" id="drop">
+                <ul class="menu mt-2">
+                    <li class="active"><a href="{% url 'movie_list' %}">Главная</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<div class="hedbot">
+    <p>.</p>
+</div>
+<div>
+    <p>.</p>
+</div>
