@@ -54,16 +54,6 @@ html {
   width: device-width;
 }
 
-.men-thumb-item {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.men-thumb-item img {
-  width: 500px;
-  height: 800px;
-}
-
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
@@ -491,7 +481,10 @@ mark,
   max-width: 100%;
   height: auto;
 }
-
+.img-movie-shots {
+  max-width: 250px;
+  height: auto;
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -2124,10 +2117,7 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .form-group {
   margin-bottom: 1rem;
 }
-.img-movie-shots{
-  width: 200px;
-  height: 150px;
-}
+
 .form-text {
   display: block;
   margin-top: 0.25rem;
