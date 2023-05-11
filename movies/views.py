@@ -28,7 +28,7 @@ class MovieDetailView(View):
 
 
 class AddReview(View):
-    '''Отзывы'''
+    """Отзывы"""
     def post(self, request, pk):
         form = ReviewForm(request.POST)
         movie = Movie.objects.get(id=pk)
@@ -40,7 +40,7 @@ class AddReview(View):
 
 
 class ActorView(DetailView):
-    '''Вывод информации об актере '''
+    """Вывод информации об актере """
     model = Actor
     template_name = 'movies/actor.html'
     slug_field = 'name'
